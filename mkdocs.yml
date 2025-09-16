@@ -36,6 +36,7 @@ theme:
 
   features:
     - navigation.sections
+    - navigation.tabs
     - navigation.top
     - navigation.footer
     - header.autohide
@@ -113,6 +114,7 @@ plugins:
       branch: main
 nav:
   - "index.md"
+  - SDK Documentation: "https://embedids.samiralavi.com"
 
 extra_css:
   - assets/stylesheets/extra.css
