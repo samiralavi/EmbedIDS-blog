@@ -93,10 +93,12 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 2
+  - pymdownx.blocks.caption
 
 plugins:
   - search
   - social
+  - glightbox
   - blog:
       blog_dir: .
       archive: true
